@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xl.parking.mapper.LoginInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xl.parking.domain.LoginInfo">
+        <id column="yid" property="yid" />
+        <result column="person" property="person" />
+        <result column="ip" property="ip" />
+        <result column="ip_location" property="ipLocation" />
+        <result column="browser" property="browser" />
+        <result column="os" property="os" />
+        <result column="login_time" property="loginTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        yid, person, ip, ip_location, browser, os, login_time
+    </sql>
+
+</mapper>

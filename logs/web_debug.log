@@ -1,0 +1,732 @@
+2023-05-15 13:10:38.420 [main] DEBUG com.xl.parking.ParkingApplication - Running with Spring Boot v2.3.7.RELEASE, Spring v5.2.12.RELEASE
+2023-05-15 13:10:38.819 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-05-15 13:10:38.821 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/com/xl/parking/mapper/CarMapper.class]
+2023-05-15 13:10:38.821 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/com/xl/parking/mapper/CommentMapper.class]
+2023-05-15 13:10:38.821 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/com/xl/parking/mapper/CommunityMapper.class]
+2023-05-15 13:10:38.821 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/com/xl/parking/mapper/FeeMapper.class]
+2023-05-15 13:10:38.821 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/com/xl/parking/mapper/LoginInfoMapper.class]
+2023-05-15 13:10:38.821 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/com/xl/parking/mapper/MessageMapper.class]
+2023-05-15 13:10:38.821 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/com/xl/parking/mapper/RechargeMapper.class]
+2023-05-15 13:10:38.821 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/com/xl/parking/mapper/StallMapper.class]
+2023-05-15 13:10:38.821 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/com/xl/parking/mapper/StallResMapper.class]
+2023-05-15 13:10:38.821 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/com/xl/parking/mapper/StallTypeMapper.class]
+2023-05-15 13:10:38.821 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/com/xl/parking/mapper/UserMapper.class]
+2023-05-15 13:10:38.822 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'carMapper' and 'com.xl.parking.mapper.CarMapper' mapperInterface
+2023-05-15 13:10:38.822 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'carMapper'.
+2023-05-15 13:10:38.822 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'commentMapper' and 'com.xl.parking.mapper.CommentMapper' mapperInterface
+2023-05-15 13:10:38.822 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'commentMapper'.
+2023-05-15 13:10:38.822 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'communityMapper' and 'com.xl.parking.mapper.CommunityMapper' mapperInterface
+2023-05-15 13:10:38.822 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'communityMapper'.
+2023-05-15 13:10:38.822 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'feeMapper' and 'com.xl.parking.mapper.FeeMapper' mapperInterface
+2023-05-15 13:10:38.822 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'feeMapper'.
+2023-05-15 13:10:38.822 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'loginInfoMapper' and 'com.xl.parking.mapper.LoginInfoMapper' mapperInterface
+2023-05-15 13:10:38.822 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'loginInfoMapper'.
+2023-05-15 13:10:38.822 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'messageMapper' and 'com.xl.parking.mapper.MessageMapper' mapperInterface
+2023-05-15 13:10:38.822 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'messageMapper'.
+2023-05-15 13:10:38.822 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'rechargeMapper' and 'com.xl.parking.mapper.RechargeMapper' mapperInterface
+2023-05-15 13:10:38.822 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'rechargeMapper'.
+2023-05-15 13:10:38.822 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'stallMapper' and 'com.xl.parking.mapper.StallMapper' mapperInterface
+2023-05-15 13:10:38.822 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'stallMapper'.
+2023-05-15 13:10:38.822 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'stallResMapper' and 'com.xl.parking.mapper.StallResMapper' mapperInterface
+2023-05-15 13:10:38.822 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'stallResMapper'.
+2023-05-15 13:10:38.822 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'stallTypeMapper' and 'com.xl.parking.mapper.StallTypeMapper' mapperInterface
+2023-05-15 13:10:38.822 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'stallTypeMapper'.
+2023-05-15 13:10:38.822 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.xl.parking.mapper.UserMapper' mapperInterface
+2023-05-15 13:10:38.822 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2023-05-15 13:10:39.505 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+2023-05-15 13:10:39.541 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.insert
+2023-05-15 13:10:39.543 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.delete
+2023-05-15 13:10:39.545 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.deleteByMap
+2023-05-15 13:10:39.555 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.deleteById
+2023-05-15 13:10:39.556 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.deleteBatchIds
+2023-05-15 13:10:39.558 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.update
+2023-05-15 13:10:39.558 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.updateById
+2023-05-15 13:10:39.559 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.selectById
+2023-05-15 13:10:39.560 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.selectBatchIds
+2023-05-15 13:10:39.560 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.selectByMap
+2023-05-15 13:10:39.561 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.selectOne
+2023-05-15 13:10:39.562 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.selectCount
+2023-05-15 13:10:39.563 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.selectMaps
+2023-05-15 13:10:39.564 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.selectMapsPage
+2023-05-15 13:10:39.565 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.selectObjs
+2023-05-15 13:10:39.566 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.selectList
+2023-05-15 13:10:39.567 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.selectPage
+2023-05-15 13:10:39.567 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/mapper/CarMapper.xml]'
+2023-05-15 13:10:39.572 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.insert
+2023-05-15 13:10:39.573 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.delete
+2023-05-15 13:10:39.574 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.deleteByMap
+2023-05-15 13:10:39.574 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.deleteById
+2023-05-15 13:10:39.576 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.deleteBatchIds
+2023-05-15 13:10:39.576 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.update
+2023-05-15 13:10:39.577 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.updateById
+2023-05-15 13:10:39.577 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.selectById
+2023-05-15 13:10:39.577 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.selectBatchIds
+2023-05-15 13:10:39.578 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.selectByMap
+2023-05-15 13:10:39.578 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.selectOne
+2023-05-15 13:10:39.579 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.selectCount
+2023-05-15 13:10:39.580 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.selectMaps
+2023-05-15 13:10:39.580 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.selectMapsPage
+2023-05-15 13:10:39.581 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.selectObjs
+2023-05-15 13:10:39.581 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.selectList
+2023-05-15 13:10:39.582 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.selectPage
+2023-05-15 13:10:39.582 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/mapper/CommentMapper.xml]'
+2023-05-15 13:10:39.586 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.insert
+2023-05-15 13:10:39.586 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.delete
+2023-05-15 13:10:39.587 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.deleteByMap
+2023-05-15 13:10:39.587 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.deleteById
+2023-05-15 13:10:39.588 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.deleteBatchIds
+2023-05-15 13:10:39.588 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.update
+2023-05-15 13:10:39.589 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.updateById
+2023-05-15 13:10:39.589 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.selectById
+2023-05-15 13:10:39.589 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.selectBatchIds
+2023-05-15 13:10:39.590 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.selectByMap
+2023-05-15 13:10:39.590 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.selectOne
+2023-05-15 13:10:39.591 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.selectCount
+2023-05-15 13:10:39.591 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.selectMaps
+2023-05-15 13:10:39.592 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.selectMapsPage
+2023-05-15 13:10:39.592 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.selectObjs
+2023-05-15 13:10:39.592 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.selectList
+2023-05-15 13:10:39.593 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.selectPage
+2023-05-15 13:10:39.593 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/mapper/CommunityMapper.xml]'
+2023-05-15 13:10:39.596 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.insert
+2023-05-15 13:10:39.596 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.delete
+2023-05-15 13:10:39.597 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.deleteByMap
+2023-05-15 13:10:39.597 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.deleteById
+2023-05-15 13:10:39.598 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.deleteBatchIds
+2023-05-15 13:10:39.598 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.update
+2023-05-15 13:10:39.598 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.updateById
+2023-05-15 13:10:39.599 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.selectById
+2023-05-15 13:10:39.599 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.selectBatchIds
+2023-05-15 13:10:39.599 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.selectByMap
+2023-05-15 13:10:39.600 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.selectOne
+2023-05-15 13:10:39.600 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.selectCount
+2023-05-15 13:10:39.601 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.selectMaps
+2023-05-15 13:10:39.601 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.selectMapsPage
+2023-05-15 13:10:39.602 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.selectObjs
+2023-05-15 13:10:39.602 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.selectList
+2023-05-15 13:10:39.603 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.selectPage
+2023-05-15 13:10:39.603 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/mapper/FeeMapper.xml]'
+2023-05-15 13:10:39.606 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.insert
+2023-05-15 13:10:39.606 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.delete
+2023-05-15 13:10:39.606 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.deleteByMap
+2023-05-15 13:10:39.607 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.deleteById
+2023-05-15 13:10:39.607 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.deleteBatchIds
+2023-05-15 13:10:39.608 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.update
+2023-05-15 13:10:39.608 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.updateById
+2023-05-15 13:10:39.608 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.selectById
+2023-05-15 13:10:39.609 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.selectBatchIds
+2023-05-15 13:10:39.609 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.selectByMap
+2023-05-15 13:10:39.610 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.selectOne
+2023-05-15 13:10:39.610 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.selectCount
+2023-05-15 13:10:39.611 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.selectMaps
+2023-05-15 13:10:39.611 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.selectMapsPage
+2023-05-15 13:10:39.612 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.selectObjs
+2023-05-15 13:10:39.612 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.selectList
+2023-05-15 13:10:39.613 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.selectPage
+2023-05-15 13:10:39.613 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/mapper/LoginInfoMapper.xml]'
+2023-05-15 13:10:39.616 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.insert
+2023-05-15 13:10:39.616 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.delete
+2023-05-15 13:10:39.617 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.deleteByMap
+2023-05-15 13:10:39.617 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.deleteById
+2023-05-15 13:10:39.617 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.deleteBatchIds
+2023-05-15 13:10:39.618 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.update
+2023-05-15 13:10:39.618 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.updateById
+2023-05-15 13:10:39.618 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.selectById
+2023-05-15 13:10:39.619 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.selectBatchIds
+2023-05-15 13:10:39.619 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.selectByMap
+2023-05-15 13:10:39.619 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.selectOne
+2023-05-15 13:10:39.620 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.selectCount
+2023-05-15 13:10:39.620 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.selectMaps
+2023-05-15 13:10:39.621 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.selectMapsPage
+2023-05-15 13:10:39.621 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.selectObjs
+2023-05-15 13:10:39.621 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.selectList
+2023-05-15 13:10:39.622 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.selectPage
+2023-05-15 13:10:39.622 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/mapper/MessageMapper.xml]'
+2023-05-15 13:10:39.626 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.insert
+2023-05-15 13:10:39.627 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.delete
+2023-05-15 13:10:39.627 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.deleteByMap
+2023-05-15 13:10:39.627 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.deleteById
+2023-05-15 13:10:39.628 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.deleteBatchIds
+2023-05-15 13:10:39.628 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.update
+2023-05-15 13:10:39.628 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.updateById
+2023-05-15 13:10:39.628 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.selectById
+2023-05-15 13:10:39.629 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.selectBatchIds
+2023-05-15 13:10:39.629 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.selectByMap
+2023-05-15 13:10:39.629 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.selectOne
+2023-05-15 13:10:39.630 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.selectCount
+2023-05-15 13:10:39.630 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.selectMaps
+2023-05-15 13:10:39.631 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.selectMapsPage
+2023-05-15 13:10:39.631 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.selectObjs
+2023-05-15 13:10:39.631 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.selectList
+2023-05-15 13:10:39.632 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.selectPage
+2023-05-15 13:10:39.632 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/mapper/RechargeMapper.xml]'
+2023-05-15 13:10:39.635 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.setStallOrg
+2023-05-15 13:10:39.635 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.getStallAll
+2023-05-15 13:10:39.637 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.insert
+2023-05-15 13:10:39.637 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.delete
+2023-05-15 13:10:39.637 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.deleteByMap
+2023-05-15 13:10:39.638 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.deleteById
+2023-05-15 13:10:39.638 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.deleteBatchIds
+2023-05-15 13:10:39.639 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.update
+2023-05-15 13:10:39.639 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.updateById
+2023-05-15 13:10:39.639 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.selectById
+2023-05-15 13:10:39.640 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.selectBatchIds
+2023-05-15 13:10:39.640 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.selectByMap
+2023-05-15 13:10:39.640 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.selectOne
+2023-05-15 13:10:39.641 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.selectCount
+2023-05-15 13:10:39.641 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.selectMaps
+2023-05-15 13:10:39.642 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.selectMapsPage
+2023-05-15 13:10:39.642 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.selectObjs
+2023-05-15 13:10:39.642 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.selectList
+2023-05-15 13:10:39.643 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.selectPage
+2023-05-15 13:10:39.643 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/mapper/StallMapper.xml]'
+2023-05-15 13:10:39.645 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.getAllStallRes
+2023-05-15 13:10:39.645 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.getAllListStallRes
+2023-05-15 13:10:39.646 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.insert
+2023-05-15 13:10:39.646 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.delete
+2023-05-15 13:10:39.646 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.deleteByMap
+2023-05-15 13:10:39.647 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.deleteById
+2023-05-15 13:10:39.647 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.deleteBatchIds
+2023-05-15 13:10:39.647 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.update
+2023-05-15 13:10:39.648 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.updateById
+2023-05-15 13:10:39.648 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.selectById
+2023-05-15 13:10:39.648 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.selectBatchIds
+2023-05-15 13:10:39.649 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.selectByMap
+2023-05-15 13:10:39.649 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.selectOne
+2023-05-15 13:10:39.649 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.selectCount
+2023-05-15 13:10:39.650 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.selectMaps
+2023-05-15 13:10:39.650 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.selectMapsPage
+2023-05-15 13:10:39.650 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.selectObjs
+2023-05-15 13:10:39.650 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.selectList
+2023-05-15 13:10:39.651 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.selectPage
+2023-05-15 13:10:39.651 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/mapper/StallResMapper.xml]'
+2023-05-15 13:10:39.653 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.insert
+2023-05-15 13:10:39.653 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.delete
+2023-05-15 13:10:39.654 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.deleteByMap
+2023-05-15 13:10:39.654 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.deleteById
+2023-05-15 13:10:39.654 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.deleteBatchIds
+2023-05-15 13:10:39.655 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.update
+2023-05-15 13:10:39.655 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.updateById
+2023-05-15 13:10:39.655 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.selectById
+2023-05-15 13:10:39.655 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.selectBatchIds
+2023-05-15 13:10:39.656 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.selectByMap
+2023-05-15 13:10:39.656 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.selectOne
+2023-05-15 13:10:39.656 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.selectCount
+2023-05-15 13:10:39.657 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.selectMaps
+2023-05-15 13:10:39.657 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.selectMapsPage
+2023-05-15 13:10:39.657 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.selectObjs
+2023-05-15 13:10:39.658 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.selectList
+2023-05-15 13:10:39.658 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.selectPage
+2023-05-15 13:10:39.658 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/mapper/StallTypeMapper.xml]'
+2023-05-15 13:10:39.660 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.getUserDataType
+2023-05-15 13:10:39.660 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.getUserDataMoney
+2023-05-15 13:10:39.660 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.insert
+2023-05-15 13:10:39.661 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.delete
+2023-05-15 13:10:39.661 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.deleteByMap
+2023-05-15 13:10:39.661 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.deleteById
+2023-05-15 13:10:39.662 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.deleteBatchIds
+2023-05-15 13:10:39.662 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.update
+2023-05-15 13:10:39.662 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.updateById
+2023-05-15 13:10:39.662 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.selectById
+2023-05-15 13:10:39.663 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.selectBatchIds
+2023-05-15 13:10:39.663 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.selectByMap
+2023-05-15 13:10:39.663 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.selectOne
+2023-05-15 13:10:39.664 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.selectCount
+2023-05-15 13:10:39.664 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.selectMaps
+2023-05-15 13:10:39.664 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.selectMapsPage
+2023-05-15 13:10:39.665 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.selectObjs
+2023-05-15 13:10:39.665 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.selectList
+2023-05-15 13:10:39.665 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.selectPage
+2023-05-15 13:10:39.665 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/mapper/UserMapper.xml]'
+2023-05-15 13:10:39.948 [main] DEBUG i.n.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+2023-05-15 13:10:39.951 [main] DEBUG io.lettuce.core.resource.DefaultClientResources - -Dio.netty.eventLoopThreads: 12
+2023-05-15 13:10:39.957 [main] DEBUG i.l.core.resource.DefaultEventLoopGroupProvider - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2023-05-15 13:10:39.967 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-05-15 13:10:39.967 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-05-15 13:10:39.970 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2023-05-15 13:10:39.970 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2023-05-15 13:10:39.972 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@cf10c92
+2023-05-15 13:10:39.980 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: MacOS
+2023-05-15 13:10:39.980 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2023-05-15 13:10:39.980 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 20
+2023-05-15 13:10:39.981 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2023-05-15 13:10:39.981 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2023-05-15 13:10:39.982 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2023-05-15 13:10:39.982 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:238)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:232)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:293)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:109)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:218)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:197)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:179)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:163)
+	at io.lettuce.core.resource.DefaultClientResources.<init>(DefaultClientResources.java:183)
+	at io.lettuce.core.resource.DefaultClientResources$Builder.build(DefaultClientResources.java:562)
+	at io.lettuce.core.resource.DefaultClientResources.create(DefaultClientResources.java:247)
+	at org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration.lettuceClientResources(LettuceConnectionConfiguration.java:66)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:652)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:485)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.xl.parking.ParkingApplication.main(ParkingApplication.java:10)
+2023-05-15 13:10:39.982 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2023-05-15 13:10:39.983 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @5e0826e7
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:394)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:709)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:352)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:343)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:293)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:109)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:218)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:197)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:179)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:163)
+	at io.lettuce.core.resource.DefaultClientResources.<init>(DefaultClientResources.java:183)
+	at io.lettuce.core.resource.DefaultClientResources$Builder.build(DefaultClientResources.java:562)
+	at io.lettuce.core.resource.DefaultClientResources.create(DefaultClientResources.java:247)
+	at org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration.lettuceClientResources(LettuceConnectionConfiguration.java:66)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:652)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:485)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.xl.parking.ParkingApplication.main(ParkingApplication.java:10)
+2023-05-15 13:10:39.983 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-05-15 13:10:39.983 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2023-05-15 13:10:39.984 [main] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 8589934592 bytes (maybe)
+2023-05-15 13:10:39.984 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/3f/qqln0_h578vcz6pgrtpqjchm0000gn/T (java.io.tmpdir)
+2023-05-15 13:10:39.984 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-05-15 13:10:39.984 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+2023-05-15 13:10:39.984 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-05-15 13:10:39.985 [main] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+2023-05-15 13:10:39.985 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2023-05-15 13:10:39.988 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2023-05-15 13:10:39.993 [main] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+2023-05-15 13:10:40.001 [main] DEBUG io.lettuce.core.resource.DefaultClientResources - LatencyUtils/HdrUtils are not available, metrics are disabled
+2023-05-15 13:10:40.035 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 24
+2023-05-15 13:10:40.035 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 24
+2023-05-15 13:10:40.035 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2023-05-15 13:10:40.035 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2023-05-15 13:10:40.035 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2023-05-15 13:10:40.035 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2023-05-15 13:10:40.035 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2023-05-15 13:10:40.035 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-05-15 13:10:40.035 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-05-15 13:10:40.035 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-05-15 13:10:40.035 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2023-05-15 13:10:40.035 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-05-15 13:10:40.222 [main] DEBUG io.lettuce.core.RedisClient - Initiate shutdown (100, 100, MILLISECONDS)
+2023-05-15 13:10:40.224 [main] DEBUG io.lettuce.core.resource.DefaultClientResources - Initiate shutdown (0, 2, SECONDS)
+2023-05-15 13:10:40.225 [main] DEBUG i.l.core.resource.DefaultEventLoopGroupProvider - Initiate shutdown (0, 2, SECONDS)
+2023-05-15 13:10:58.429 [main] DEBUG com.xl.parking.ParkingApplication - Running with Spring Boot v2.3.7.RELEASE, Spring v5.2.12.RELEASE
+2023-05-15 13:10:58.748 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-05-15 13:10:58.750 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/com/xl/parking/mapper/CarMapper.class]
+2023-05-15 13:10:58.750 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/com/xl/parking/mapper/CommentMapper.class]
+2023-05-15 13:10:58.750 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/com/xl/parking/mapper/CommunityMapper.class]
+2023-05-15 13:10:58.750 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/com/xl/parking/mapper/FeeMapper.class]
+2023-05-15 13:10:58.750 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/com/xl/parking/mapper/LoginInfoMapper.class]
+2023-05-15 13:10:58.751 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/com/xl/parking/mapper/MessageMapper.class]
+2023-05-15 13:10:58.751 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/com/xl/parking/mapper/RechargeMapper.class]
+2023-05-15 13:10:58.751 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/com/xl/parking/mapper/StallMapper.class]
+2023-05-15 13:10:58.751 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/com/xl/parking/mapper/StallResMapper.class]
+2023-05-15 13:10:58.751 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/com/xl/parking/mapper/StallTypeMapper.class]
+2023-05-15 13:10:58.751 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/com/xl/parking/mapper/UserMapper.class]
+2023-05-15 13:10:58.751 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'carMapper' and 'com.xl.parking.mapper.CarMapper' mapperInterface
+2023-05-15 13:10:58.751 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'carMapper'.
+2023-05-15 13:10:58.751 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'commentMapper' and 'com.xl.parking.mapper.CommentMapper' mapperInterface
+2023-05-15 13:10:58.751 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'commentMapper'.
+2023-05-15 13:10:58.751 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'communityMapper' and 'com.xl.parking.mapper.CommunityMapper' mapperInterface
+2023-05-15 13:10:58.751 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'communityMapper'.
+2023-05-15 13:10:58.751 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'feeMapper' and 'com.xl.parking.mapper.FeeMapper' mapperInterface
+2023-05-15 13:10:58.751 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'feeMapper'.
+2023-05-15 13:10:58.751 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'loginInfoMapper' and 'com.xl.parking.mapper.LoginInfoMapper' mapperInterface
+2023-05-15 13:10:58.751 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'loginInfoMapper'.
+2023-05-15 13:10:58.751 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'messageMapper' and 'com.xl.parking.mapper.MessageMapper' mapperInterface
+2023-05-15 13:10:58.751 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'messageMapper'.
+2023-05-15 13:10:58.751 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'rechargeMapper' and 'com.xl.parking.mapper.RechargeMapper' mapperInterface
+2023-05-15 13:10:58.751 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'rechargeMapper'.
+2023-05-15 13:10:58.752 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'stallMapper' and 'com.xl.parking.mapper.StallMapper' mapperInterface
+2023-05-15 13:10:58.752 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'stallMapper'.
+2023-05-15 13:10:58.752 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'stallResMapper' and 'com.xl.parking.mapper.StallResMapper' mapperInterface
+2023-05-15 13:10:58.752 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'stallResMapper'.
+2023-05-15 13:10:58.752 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'stallTypeMapper' and 'com.xl.parking.mapper.StallTypeMapper' mapperInterface
+2023-05-15 13:10:58.752 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'stallTypeMapper'.
+2023-05-15 13:10:58.752 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.xl.parking.mapper.UserMapper' mapperInterface
+2023-05-15 13:10:58.752 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2023-05-15 13:10:59.312 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+2023-05-15 13:10:59.345 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.insert
+2023-05-15 13:10:59.347 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.delete
+2023-05-15 13:10:59.348 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.deleteByMap
+2023-05-15 13:10:59.357 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.deleteById
+2023-05-15 13:10:59.358 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.deleteBatchIds
+2023-05-15 13:10:59.359 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.update
+2023-05-15 13:10:59.360 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.updateById
+2023-05-15 13:10:59.360 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.selectById
+2023-05-15 13:10:59.360 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.selectBatchIds
+2023-05-15 13:10:59.361 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.selectByMap
+2023-05-15 13:10:59.362 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.selectOne
+2023-05-15 13:10:59.363 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.selectCount
+2023-05-15 13:10:59.364 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.selectMaps
+2023-05-15 13:10:59.364 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.selectMapsPage
+2023-05-15 13:10:59.365 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.selectObjs
+2023-05-15 13:10:59.366 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.selectList
+2023-05-15 13:10:59.367 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CarMapper.selectPage
+2023-05-15 13:10:59.367 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/mapper/CarMapper.xml]'
+2023-05-15 13:10:59.371 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.insert
+2023-05-15 13:10:59.372 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.delete
+2023-05-15 13:10:59.372 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.deleteByMap
+2023-05-15 13:10:59.373 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.deleteById
+2023-05-15 13:10:59.373 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.deleteBatchIds
+2023-05-15 13:10:59.374 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.update
+2023-05-15 13:10:59.374 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.updateById
+2023-05-15 13:10:59.374 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.selectById
+2023-05-15 13:10:59.375 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.selectBatchIds
+2023-05-15 13:10:59.375 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.selectByMap
+2023-05-15 13:10:59.376 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.selectOne
+2023-05-15 13:10:59.377 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.selectCount
+2023-05-15 13:10:59.377 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.selectMaps
+2023-05-15 13:10:59.378 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.selectMapsPage
+2023-05-15 13:10:59.378 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.selectObjs
+2023-05-15 13:10:59.379 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.selectList
+2023-05-15 13:10:59.379 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommentMapper.selectPage
+2023-05-15 13:10:59.379 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/mapper/CommentMapper.xml]'
+2023-05-15 13:10:59.383 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.insert
+2023-05-15 13:10:59.383 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.delete
+2023-05-15 13:10:59.384 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.deleteByMap
+2023-05-15 13:10:59.384 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.deleteById
+2023-05-15 13:10:59.385 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.deleteBatchIds
+2023-05-15 13:10:59.385 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.update
+2023-05-15 13:10:59.386 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.updateById
+2023-05-15 13:10:59.386 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.selectById
+2023-05-15 13:10:59.386 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.selectBatchIds
+2023-05-15 13:10:59.387 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.selectByMap
+2023-05-15 13:10:59.387 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.selectOne
+2023-05-15 13:10:59.388 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.selectCount
+2023-05-15 13:10:59.388 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.selectMaps
+2023-05-15 13:10:59.389 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.selectMapsPage
+2023-05-15 13:10:59.389 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.selectObjs
+2023-05-15 13:10:59.390 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.selectList
+2023-05-15 13:10:59.390 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.CommunityMapper.selectPage
+2023-05-15 13:10:59.390 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/mapper/CommunityMapper.xml]'
+2023-05-15 13:10:59.393 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.insert
+2023-05-15 13:10:59.394 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.delete
+2023-05-15 13:10:59.394 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.deleteByMap
+2023-05-15 13:10:59.395 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.deleteById
+2023-05-15 13:10:59.395 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.deleteBatchIds
+2023-05-15 13:10:59.396 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.update
+2023-05-15 13:10:59.396 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.updateById
+2023-05-15 13:10:59.396 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.selectById
+2023-05-15 13:10:59.396 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.selectBatchIds
+2023-05-15 13:10:59.397 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.selectByMap
+2023-05-15 13:10:59.397 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.selectOne
+2023-05-15 13:10:59.398 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.selectCount
+2023-05-15 13:10:59.398 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.selectMaps
+2023-05-15 13:10:59.399 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.selectMapsPage
+2023-05-15 13:10:59.399 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.selectObjs
+2023-05-15 13:10:59.400 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.selectList
+2023-05-15 13:10:59.400 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.FeeMapper.selectPage
+2023-05-15 13:10:59.400 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/mapper/FeeMapper.xml]'
+2023-05-15 13:10:59.403 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.insert
+2023-05-15 13:10:59.404 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.delete
+2023-05-15 13:10:59.404 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.deleteByMap
+2023-05-15 13:10:59.405 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.deleteById
+2023-05-15 13:10:59.405 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.deleteBatchIds
+2023-05-15 13:10:59.406 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.update
+2023-05-15 13:10:59.406 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.updateById
+2023-05-15 13:10:59.406 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.selectById
+2023-05-15 13:10:59.406 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.selectBatchIds
+2023-05-15 13:10:59.407 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.selectByMap
+2023-05-15 13:10:59.407 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.selectOne
+2023-05-15 13:10:59.408 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.selectCount
+2023-05-15 13:10:59.408 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.selectMaps
+2023-05-15 13:10:59.408 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.selectMapsPage
+2023-05-15 13:10:59.409 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.selectObjs
+2023-05-15 13:10:59.409 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.selectList
+2023-05-15 13:10:59.410 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.LoginInfoMapper.selectPage
+2023-05-15 13:10:59.410 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/mapper/LoginInfoMapper.xml]'
+2023-05-15 13:10:59.412 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.insert
+2023-05-15 13:10:59.413 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.delete
+2023-05-15 13:10:59.413 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.deleteByMap
+2023-05-15 13:10:59.414 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.deleteById
+2023-05-15 13:10:59.414 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.deleteBatchIds
+2023-05-15 13:10:59.414 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.update
+2023-05-15 13:10:59.415 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.updateById
+2023-05-15 13:10:59.415 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.selectById
+2023-05-15 13:10:59.415 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.selectBatchIds
+2023-05-15 13:10:59.415 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.selectByMap
+2023-05-15 13:10:59.416 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.selectOne
+2023-05-15 13:10:59.418 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.selectCount
+2023-05-15 13:10:59.418 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.selectMaps
+2023-05-15 13:10:59.419 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.selectMapsPage
+2023-05-15 13:10:59.419 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.selectObjs
+2023-05-15 13:10:59.419 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.selectList
+2023-05-15 13:10:59.420 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.MessageMapper.selectPage
+2023-05-15 13:10:59.420 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/mapper/MessageMapper.xml]'
+2023-05-15 13:10:59.422 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.insert
+2023-05-15 13:10:59.423 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.delete
+2023-05-15 13:10:59.423 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.deleteByMap
+2023-05-15 13:10:59.423 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.deleteById
+2023-05-15 13:10:59.424 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.deleteBatchIds
+2023-05-15 13:10:59.424 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.update
+2023-05-15 13:10:59.424 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.updateById
+2023-05-15 13:10:59.424 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.selectById
+2023-05-15 13:10:59.425 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.selectBatchIds
+2023-05-15 13:10:59.425 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.selectByMap
+2023-05-15 13:10:59.425 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.selectOne
+2023-05-15 13:10:59.426 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.selectCount
+2023-05-15 13:10:59.426 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.selectMaps
+2023-05-15 13:10:59.427 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.selectMapsPage
+2023-05-15 13:10:59.427 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.selectObjs
+2023-05-15 13:10:59.427 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.selectList
+2023-05-15 13:10:59.428 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.RechargeMapper.selectPage
+2023-05-15 13:10:59.428 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/mapper/RechargeMapper.xml]'
+2023-05-15 13:10:59.431 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.setStallOrg
+2023-05-15 13:10:59.431 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.getStallAll
+2023-05-15 13:10:59.432 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.insert
+2023-05-15 13:10:59.433 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.delete
+2023-05-15 13:10:59.433 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.deleteByMap
+2023-05-15 13:10:59.434 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.deleteById
+2023-05-15 13:10:59.434 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.deleteBatchIds
+2023-05-15 13:10:59.434 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.update
+2023-05-15 13:10:59.435 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.updateById
+2023-05-15 13:10:59.435 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.selectById
+2023-05-15 13:10:59.435 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.selectBatchIds
+2023-05-15 13:10:59.436 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.selectByMap
+2023-05-15 13:10:59.436 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.selectOne
+2023-05-15 13:10:59.437 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.selectCount
+2023-05-15 13:10:59.437 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.selectMaps
+2023-05-15 13:10:59.438 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.selectMapsPage
+2023-05-15 13:10:59.438 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.selectObjs
+2023-05-15 13:10:59.438 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.selectList
+2023-05-15 13:10:59.439 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallMapper.selectPage
+2023-05-15 13:10:59.439 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/mapper/StallMapper.xml]'
+2023-05-15 13:10:59.441 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.getAllStallRes
+2023-05-15 13:10:59.441 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.getAllListStallRes
+2023-05-15 13:10:59.442 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.insert
+2023-05-15 13:10:59.442 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.delete
+2023-05-15 13:10:59.442 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.deleteByMap
+2023-05-15 13:10:59.443 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.deleteById
+2023-05-15 13:10:59.443 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.deleteBatchIds
+2023-05-15 13:10:59.444 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.update
+2023-05-15 13:10:59.444 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.updateById
+2023-05-15 13:10:59.444 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.selectById
+2023-05-15 13:10:59.444 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.selectBatchIds
+2023-05-15 13:10:59.445 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.selectByMap
+2023-05-15 13:10:59.445 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.selectOne
+2023-05-15 13:10:59.445 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.selectCount
+2023-05-15 13:10:59.446 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.selectMaps
+2023-05-15 13:10:59.446 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.selectMapsPage
+2023-05-15 13:10:59.447 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.selectObjs
+2023-05-15 13:10:59.447 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.selectList
+2023-05-15 13:10:59.447 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallResMapper.selectPage
+2023-05-15 13:10:59.447 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/mapper/StallResMapper.xml]'
+2023-05-15 13:10:59.450 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.insert
+2023-05-15 13:10:59.450 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.delete
+2023-05-15 13:10:59.450 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.deleteByMap
+2023-05-15 13:10:59.451 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.deleteById
+2023-05-15 13:10:59.451 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.deleteBatchIds
+2023-05-15 13:10:59.451 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.update
+2023-05-15 13:10:59.452 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.updateById
+2023-05-15 13:10:59.452 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.selectById
+2023-05-15 13:10:59.452 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.selectBatchIds
+2023-05-15 13:10:59.452 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.selectByMap
+2023-05-15 13:10:59.453 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.selectOne
+2023-05-15 13:10:59.453 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.selectCount
+2023-05-15 13:10:59.454 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.selectMaps
+2023-05-15 13:10:59.454 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.selectMapsPage
+2023-05-15 13:10:59.454 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.selectObjs
+2023-05-15 13:10:59.455 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.selectList
+2023-05-15 13:10:59.455 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.StallTypeMapper.selectPage
+2023-05-15 13:10:59.455 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/mapper/StallTypeMapper.xml]'
+2023-05-15 13:10:59.457 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.getUserDataType
+2023-05-15 13:10:59.457 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.getUserDataMoney
+2023-05-15 13:10:59.458 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.insert
+2023-05-15 13:10:59.458 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.delete
+2023-05-15 13:10:59.458 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.deleteByMap
+2023-05-15 13:10:59.459 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.deleteById
+2023-05-15 13:10:59.459 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.deleteBatchIds
+2023-05-15 13:10:59.459 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.update
+2023-05-15 13:10:59.460 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.updateById
+2023-05-15 13:10:59.460 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.selectById
+2023-05-15 13:10:59.460 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.selectBatchIds
+2023-05-15 13:10:59.461 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.selectByMap
+2023-05-15 13:10:59.461 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.selectOne
+2023-05-15 13:10:59.461 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.selectCount
+2023-05-15 13:10:59.462 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.selectMaps
+2023-05-15 13:10:59.462 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.selectMapsPage
+2023-05-15 13:10:59.462 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.selectObjs
+2023-05-15 13:10:59.463 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.selectList
+2023-05-15 13:10:59.463 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.xl.parking.mapper.UserMapper.selectPage
+2023-05-15 13:10:59.463 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [/Users/season/Projects/code51.cn_源码乐园/code/code/target/classes/mapper/UserMapper.xml]'
+2023-05-15 13:10:59.714 [main] DEBUG i.n.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+2023-05-15 13:10:59.715 [main] DEBUG io.lettuce.core.resource.DefaultClientResources - -Dio.netty.eventLoopThreads: 12
+2023-05-15 13:10:59.718 [main] DEBUG i.l.core.resource.DefaultEventLoopGroupProvider - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2023-05-15 13:10:59.727 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-05-15 13:10:59.727 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-05-15 13:10:59.728 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2023-05-15 13:10:59.728 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2023-05-15 13:10:59.730 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@26f5e45d
+2023-05-15 13:10:59.735 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: MacOS
+2023-05-15 13:10:59.736 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2023-05-15 13:10:59.736 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 20
+2023-05-15 13:10:59.736 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2023-05-15 13:10:59.737 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2023-05-15 13:10:59.737 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2023-05-15 13:10:59.738 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:238)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:232)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:293)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:109)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:218)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:197)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:179)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:163)
+	at io.lettuce.core.resource.DefaultClientResources.<init>(DefaultClientResources.java:183)
+	at io.lettuce.core.resource.DefaultClientResources$Builder.build(DefaultClientResources.java:562)
+	at io.lettuce.core.resource.DefaultClientResources.create(DefaultClientResources.java:247)
+	at org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration.lettuceClientResources(LettuceConnectionConfiguration.java:66)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:652)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:485)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.xl.parking.ParkingApplication.main(ParkingApplication.java:10)
+2023-05-15 13:10:59.738 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2023-05-15 13:10:59.738 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @7e07db1f
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:394)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:709)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:352)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:343)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:293)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:109)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:218)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:197)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:179)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:163)
+	at io.lettuce.core.resource.DefaultClientResources.<init>(DefaultClientResources.java:183)
+	at io.lettuce.core.resource.DefaultClientResources$Builder.build(DefaultClientResources.java:562)
+	at io.lettuce.core.resource.DefaultClientResources.create(DefaultClientResources.java:247)
+	at org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration.lettuceClientResources(LettuceConnectionConfiguration.java:66)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:652)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:485)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.xl.parking.ParkingApplication.main(ParkingApplication.java:10)
+2023-05-15 13:10:59.738 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-05-15 13:10:59.738 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2023-05-15 13:10:59.739 [main] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 8589934592 bytes (maybe)
+2023-05-15 13:10:59.739 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/3f/qqln0_h578vcz6pgrtpqjchm0000gn/T (java.io.tmpdir)
+2023-05-15 13:10:59.739 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-05-15 13:10:59.739 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+2023-05-15 13:10:59.739 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-05-15 13:10:59.740 [main] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+2023-05-15 13:10:59.740 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2023-05-15 13:10:59.743 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2023-05-15 13:10:59.746 [main] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+2023-05-15 13:10:59.753 [main] DEBUG io.lettuce.core.resource.DefaultClientResources - LatencyUtils/HdrUtils are not available, metrics are disabled
+2023-05-15 13:10:59.783 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 24
+2023-05-15 13:10:59.783 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 24
+2023-05-15 13:10:59.783 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2023-05-15 13:10:59.783 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2023-05-15 13:10:59.783 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2023-05-15 13:10:59.783 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2023-05-15 13:10:59.783 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2023-05-15 13:10:59.783 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-05-15 13:10:59.783 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-05-15 13:10:59.783 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-05-15 13:10:59.783 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2023-05-15 13:10:59.783 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-05-15 13:10:59.941 [main] DEBUG io.lettuce.core.RedisClient - Initiate shutdown (100, 100, MILLISECONDS)
+2023-05-15 13:10:59.945 [main] DEBUG io.lettuce.core.resource.DefaultClientResources - Initiate shutdown (0, 2, SECONDS)
+2023-05-15 13:10:59.945 [main] DEBUG i.l.core.resource.DefaultEventLoopGroupProvider - Initiate shutdown (0, 2, SECONDS)

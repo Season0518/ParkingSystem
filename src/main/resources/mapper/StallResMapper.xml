@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xl.parking.mapper.StallResMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xl.parking.domain.StallRes">
+        <id column="pid" property="pid" />
+        <result column="person" property="person" />
+        <result column="stall_id" property="stallId" />
+        <result column="create_time" property="createTime" />
+        <result column="over_time" property="overTime" />
+        <result column="pay_money" property="money" />
+    </resultMap>
+
+    <resultMap id="stallRes" type="com.xl.parking.domain.StallRes">
+        <id column="pid" property="pid" />
+        <result column="person" property="person" />
+        <result column="stall_id" property="stallId" />
+        <result column="create_time" property="createTime" />
+        <result column="over_time" property="overTime" />
+        <result column="pay_money" property="money" />
+        <collection property="stall" javaType="com.xl.parking.domain.Stall">
+            <id column="sid" property="sid" />
+            <result column="stall_num" property="stallNum" />
+            <result column="stall_area" property="stallArea" />
+            <result column="stall_type" property="stallType" />
+            <result column="stall_state" property="stallState" />
+            <result column="stall_money" property="stallMoney" />
+        </collection>
+    </resultMap>
+
+
+    <select id="getAllStallRes" resultMap="stallRes">
+        select * from stall,stall_res where stall_res.stall_id=stall.sid and stall_res.person=#{person} order by stall_res.create_time desc
+    </select>
+
+    <select id="getAllListStallRes" resultMap="stallRes">
+        select * from stall_res,stall
+        where stall_res.stall_id = stall.sid
+        <if test="person!=null">
+            and stall_res.person like CONCAT('%',#{person},'%')
+        </if>
+        <if test="inTime!=null">
+            and stall_res.create_time between #{inTime} and #{outTime}
+        </if>
+        <if test="stallArea!=null">
+            and stall.stall_area like CONCAT('%',#{stallArea},'%')
+        </if>
+        order by stall_res.create_time desc
+
+    </select>
+
+</mapper>
