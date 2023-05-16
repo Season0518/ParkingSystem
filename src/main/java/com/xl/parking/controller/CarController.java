@@ -56,6 +56,5 @@ public class CarController {
         Page<Stall> page = new Page<>(stallCarVo.getPagenum(),stallCarVo.getPageSize());
         return ResultJson.success(stallMapper.getStallAll(page,stallCarVo.getNike(),stallCarVo.getCard()));
     }
-
 }
 
