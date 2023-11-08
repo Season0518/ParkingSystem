@@ -11,6 +11,6 @@ import com.xl.parking.domain.StallType;
  * @author ${author}
  * @since 2022-03-30
  */
-public interface StallTypeMapper extends BaseMapper<StallType> {
+public interface  StallTypeMapper extends BaseMapper<StallType> {
 
 }
