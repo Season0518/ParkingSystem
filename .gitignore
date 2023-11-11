@@ -1,9 +1,9 @@
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**
-!**/src/test/**
-logs
+#!**/src/main/**
+#!**/src/test/**
+**logs/
 **/.DS_Store
 
 ### STS ###
