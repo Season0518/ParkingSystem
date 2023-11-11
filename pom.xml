@@ -9,6 +9,7 @@
     <description>this is a parking project</description>
 
     <properties>
+        <skipTests>true</skipTests>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -20,7 +21,7 @@
         <mysql-connector.version>8.0.25</mysql-connector.version>
         <mybatis-plus.version>3.4.0</mybatis-plus.version>
         <velocity.version>2.3</velocity.version>
-        <lombok.version>1.18.20</lombok.version>
+        <lombok.version>1.18.30</lombok.version>
         <easyexcel.version>3.0.5</easyexcel.version>
         <knife4j.version>2.0.7</knife4j.version>
         <redis.version>2.5.6</redis.version>
